@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hwb(240 95% 0%);
+}
+
+.formularioRegistro{
+    width: 50%;
+    padding: 20px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.h1Registro{
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: black;
+}
+
+input{
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 1.5rem;
+    font-size: 1.2em;
+    color: black;
+    border-radius: 5px;
+    border: none;
+}
