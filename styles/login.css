@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hwb(240 95% 0%);
+}
+
+.sectionInicio{
+    width: 70%;
+    margin: 6.5rem auto;
+}
+
+.formularioInicio{
+    font-family: Poppins, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.h1Inicio{
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+    margin-bottom: 20px;
+}
+
+input{
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 1.5rem;
+    font-size: 1.5em;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    margin-inline: auto;
+}
+
+.enviarInicio{
+    font-size: 1.65rem;
+    width: fit-content;
+    background-image: radial-gradient(#ffb900, #ff7730);
+    margin-inline: block;
+    padding: 1.5rem;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-inline: auto;
+    align-self: center; /* Agregado para alinear verticalmente */
+}
+
+
+.enviarInicio:hover{
+    background-image: radial-gradient(#ff7730, #ffb900);
+    cursor: pointer;
+}
